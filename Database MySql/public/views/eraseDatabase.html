@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='UTF-8'>
+        <title>MySql Demo</title>
+    </head>
+    <body>
+        <h1>Delete Database</h1>
+        <p>Please, select your database to delete.</p>
+        <form id='table-form' action='/eraseDatabase' method='POST'>
+            <label for='name'>Database Name</label><br>
+            <input type='text' id='databaseName' name='databaseName' placeholder='Insert Database'><br><br>
+            <input type='submit' value='Delete Database'/>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='UTF-8'>
+        <title>MySql Demo</title>
+    </head>
+    <body>
+        <h1>Insert Data</h1>
+        <p>Please, insert your data to MySql.</p>
+        <form id='table-form' action='/insertData' method='POST'>
+            <label for='name'>Table Name</label><br>
+            <input type='text' id='tableName' name='tableName' placeholder='Insert Table'><br><br>
+            <label for='id'>ID</label><br>
+            <input type='text' id='gameID' name='gameID' placeholder='Insert ID'><br><br>
+            <label for='name'>Name</label><br>
+            <input type='text' id='gameName' name='gameName' placeholder='Insert Name'><br><br>
+            <label for='developer'>Developer</label><br>
+            <input type='text' id='gameDeveloper' name='gameDeveloper' placeholder='Insert Developer'><br><br>
+            <label for='pusblisher'>Publisher</label><br>
+            <input type='text' id='gamePublisher' name='gamePublisher' placeholder='Insert Publisher'><br><br>
+            <label for='price'>Price</label><br>
+            <input type='text' id='gamePrice' name='gamePrice' placeholder='Insert Price'><br><br>
+            <input type='submit' value='Insert Data'/>
+        </form>
+    </body>
+</html>

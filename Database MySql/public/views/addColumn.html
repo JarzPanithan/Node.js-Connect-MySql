@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no'>
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css'>
+        <link href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet'>
+        <title>MySql Demo</title>
+    </head>
+    <body>
+        <nav>
+            <div class='nav-wrapper'>
+                <a class='brand-logo'><i class='material-icons'>insert_emoticon</i>Node.js Project</a>
+                    <ul id='nav-mobile' class='right hide-on-med-and-down'>
+                       <li><a href='buildDatabase.html'>Create Database</a></li>
+                       <li class='active'><a href='createTable.html'>Create Table</a></li>
+                       <li><a href='insertData.html'>Insert Data</a></li>
+                       <li><a href='selectData.html'>Select Data</a></li>
+                       <li><a href='updateData.html'>Update Data</a></li>
+                       <li><a href='dropData.html'>Drop Data</a></li>
+                       <li><a href='addColumn.html'>Add Column</a></li>
+                       <li><a href='eraseDatabase.html'>Erase Database</a></li>
+                    </ul>
+            </div>
+        </nav>
+        <div class='container'>
+            <div class='container'>
+                <h1>Add Column</h1>
+                <h5>Please, select your table name and add column.</h5>
+            </div>
+            <div class='container'>
+                <form id='table-form' action='/addColumn' method='POST'>
+                    <br>
+                    <label for='name'>Table Name</label><br>
+                    <input type='text' id='tableName' name='tableName' placeholder='Insert Table'><br><br>
+                    <label for='name'>Column Name</label><br>
+                    <input type='text' id='columnName' name='columnName' placeholder='Insert Column'><br><br>
+                    <label for='name'>Type Data</label><br>
+                    <input type='text' id='typeData' name='typeData' placeholder='Insert Type Data'><br><br>
+                    <button class='btn waves-effect waves-light' type='submit'>Submit<i class='material-icons right'>send</i></button>
+                </form>
+            </div>
+        </div>
+        <br><br><br><br><br><br><br>
+        <div>
+            <div class='progress'>
+                    <div class='indeterminate'></div>
+                </div>
+            </div>
+            <footer class='page-footer'>
+                <div class='container'>
+                    <div class='row'>
+                        <div class='col l6 s12'>
+                            <h5 class='white-text'>Warning!!</h5>
+                            <p class='grey-text text-lighten-4'>This is only demo project, It can't be use right now!!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class='footer-copyright'>
+                    <div class='container'>
+                        © 2019 Copyright By: Panithan Ponpadung
+                    <a class='grey-text text-lighten-4 right'>Node.js Project</a>
+                </div>
+            </div>
+        </footer>
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js'></script>
+            <script src='https://code.jquery.com/jquery-3.4.0.min.js' integrity='sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg='' crossorigin='anonymous'>
+        </script>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='UTF-8'>
+        <title>MySql Demo</title>
+    </head>
+    <body>
+        <h1>Select Data</h1>
+        <p>Please, select your table to show data.</p>
+        <form id='table-form' action='/selectData' method='POST'>
+            <label for='name'>Table Name</label><br>
+            <input type='text' id='tableName' name='tableName' placeholder='Insert Table'><br><br>
+            <input type='submit' value='Show Data'/>
+        </form>
+    </body>
+</html>

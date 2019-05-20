@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='UTF-8'>
+        <title>MySql Demo</title>
+    </head>
+    <body>
+        <h1>Drop Data</h1>
+        <p>Please, select column you want to drop.</p>
+        <form id='table-form' action='/dropData' method='POST'>
+            <label for='name'>Table Name</label><br>
+            <input type='text' id='tableName' name='tableName' placeholder='Insert Table'><br><br>
+            <label for='name'>Column Name</label><br>
+            <input type='text' id='columnName' name='columnName' placeholder='Insert Column'><br><br>
+            <input type='submit' value='Drop Data'/>
+        </form>
+    </body>
+</html>

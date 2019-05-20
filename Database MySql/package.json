@@ -1,0 +1,22 @@
+{
+  "name": "database-mysql",
+  "version": "1.0.0",
+  "description": "Demo MySql",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Panithan Ponpadung",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "https": "^1.0.0",
+    "mysql": "^2.17.1",
+    "path": "^0.12.7"
+  }
+}
